@@ -19,4 +19,4 @@
 NOTE : You Can Download Python From ```https://www.python.org/downloads/```
 
 
-**PS : Pause or Exit Script Once Connected; Avoid Changing Mouse Pointer/Cursor Position Continuesly, Program Will Malfunction**
+**```⚠️ WARNING : Pause or Exit Script Once Connected; Avoid Changing Mouse Pointer/Cursor Position Continuesly, Program Will Malfunction ```**
