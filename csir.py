@@ -1,5 +1,9 @@
 import pyautogui
 from pynput.keyboard import *
+import ctypes
+from time import sleep
+
+ctypes.windll.kernel32.SetConsoleTitleW("Autoclicker For CS 1.6")
 
 #  ======== settings ========
 delay = 0.1  # in seconds
@@ -10,6 +14,7 @@ exit_key = Key.f3
 
 pause = True
 running = True
+
 
 def on_press(key):
     global running, pause
@@ -46,6 +51,8 @@ def main():
         if not pause:
             pyautogui.click(pyautogui.position())
             pyautogui.PAUSE = delay
+        else:
+            sleep(delay)
     lis.stop()
 
 
