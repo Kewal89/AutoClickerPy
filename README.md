@@ -5,8 +5,8 @@
 1) Clone/Download The Repository.
 2) Extract Files Into Any Folder.
 3) Open A Command Prompt or Terminal In That Folder.
-4) Type "pip install -r requirements.txt" To Install Required Packages.
-5) Type "python csir.py" To Run The Python SCript.
+4) Type ```pip install -r requirements.txt``` To Install Required Packages.
+5) Type ```python csir.py``` To Run The Python SCript.
 
 ```* USING SCRIPT.```
 
